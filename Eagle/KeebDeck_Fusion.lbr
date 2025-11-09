@@ -28,8 +28,8 @@
 <layer number="17" name="Pads" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xff00dbc5" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xccffcd07" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xfff9ff47" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="BoardOutline" blackcolor="0xccfbff00" whitecolor="0xb462d986" coloredcolor="0xcceec643" blackhighlight="0xccffff00" whitehighlight="0xff17ff96" coloredhighlight="0xffffff32" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="SilkscreenTop" blackcolor="0xc800d7d0" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xc800d7d0" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="BoardOutline" blackcolor="0xb462d986" whitecolor="0xb462d986" coloredcolor="0xcceec643" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xffffff32" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="SilkscreenTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="SilkscreenBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="OriginsTop" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xff92ff0d" coloredhighlight="0xff92ff0d" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="OriginsBottom" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xff92ff0d" coloredhighlight="0xff92ff0d" fill="1" visible="yes" active="yes"/>
@@ -24503,7 +24503,7 @@
 <wire x1="-11.43" y1="-11.43" x2="-12.7" y2="-11.43" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-11.43" x2="-13.97" y2="-11.43" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="-11.43" width="0.1524" layer="94"/>
-<text x="-12.7" y="-12.7" size="1.27" layer="94" align="center">\</text>
+<text x="-12.7" y="-12.7" size="1.27" layer="94" align="center">\\</text>
 <wire x1="-15.24" y1="16.51" x2="-15.24" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="-15.24" y1="12.7" x2="-13.97" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="-13.97" y1="13.97" x2="-13.97" y2="11.43" width="0.254" layer="94"/>
