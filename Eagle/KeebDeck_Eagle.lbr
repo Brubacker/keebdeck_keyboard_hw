@@ -36,14 +36,14 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
@@ -54,11 +54,11 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -19958,6 +19958,77 @@
 <vertex x="38.622709375" y="-22.471359375"/>
 <vertex x="38.939103125" y="-22.554959375"/>
 </polygon>
+<pad name="C1_0V" x="-38.06" y="21.04" drill="0.6" diameter="1"/>
+<pad name="C2_0V" x="-28.385" y="21.04" drill="0.6" diameter="1"/>
+<pad name="C3_0V" x="-18.71" y="21.04" drill="0.6" diameter="1"/>
+<pad name="C4_0V" x="-9.035" y="21.04" drill="0.6" diameter="1"/>
+<pad name="C8_0V" x="9.04" y="21.04" drill="0.6" diameter="1"/>
+<pad name="C9_0V" x="18.715" y="21.04" drill="0.6" diameter="1"/>
+<pad name="C10_0V" x="28.39" y="21.04" drill="0.6" diameter="1"/>
+<pad name="C11_0V" x="38.065" y="21.04" drill="0.6" diameter="1"/>
+<pad name="C0_1V" x="-39.6" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C1_1V" x="-33" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C2_1V" x="-26.4" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C3_1V" x="-19.8" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C4_1V" x="-13.2" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C5_1V" x="-6.6" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C6_1V" x="0" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C7_1V" x="6.6" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C8_1V" x="13.2" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C9_1V" x="19.8" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C10_1V" x="26.4" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C11_1V" x="33" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C12_1V" x="39.6" y="12.55" drill="0.6" diameter="1"/>
+<pad name="C0_2V" x="-39.6" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C1_2V" x="-33" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C2_2V" x="-26.4" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C3_2V" x="-19.8" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C4_2V" x="-13.2" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C5_2V" x="-6.6" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C6_2V" x="0" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C7_2V" x="6.6" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C8_2V" x="13.2" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C9_2V" x="19.8" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C10_2V" x="26.4" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C11_2V" x="33" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C12_2V" x="39.6" y="4.65" drill="0.6" diameter="1"/>
+<pad name="C0_3V" x="-39.6" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C1_3V" x="-33" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C2_3V" x="-26.4" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C3_3V" x="-19.8" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C4_3V" x="-13.2" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C5_3V" x="-6.6" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C6_3V" x="0" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C7_3V" x="6.6" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C8_3V" x="13.2" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C9_3V" x="19.8" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C10_3V" x="26.4" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C11_3V" x="33" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C12_3V" x="39.6" y="-3.25" drill="0.6" diameter="1"/>
+<pad name="C0_4V" x="-39.6" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C1_4V" x="-33" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C2_4V" x="-26.4" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C3_4V" x="-19.8" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C4_4V" x="-13.2" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C5_4V" x="-6.6" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C6_4V" x="0" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C7_4V" x="6.6" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C8_4V" x="13.2" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C9_4V" x="19.8" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C10_4V" x="26.4" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C11_4V" x="33" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C12_4V" x="39.6" y="-11.15" drill="0.6" diameter="1"/>
+<pad name="C0_5V" x="-39.6" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C1_5V" x="-33" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C2_5V" x="-26.4" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C3_5V" x="-19.8" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C4_5V" x="-9.9" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C6_5V" x="0" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C7_5V" x="9.9" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C9_5V" x="19.8" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C10_5V" x="26.4" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C11_5V" x="33" y="-19.05" drill="0.6" diameter="1"/>
+<pad name="C12_5V" x="39.6" y="-19.05" drill="0.6" diameter="1"/>
 </package>
 </packages>
 <symbols>
@@ -20672,19 +20743,19 @@
 <devices>
 <device name="" package="KEEBDECK_KEYBOARD_6R13C">
 <connects>
-<connect gate="G$1" pin="C0" pad="C0_1 C0_2 C0_3 C0_4 C0_5"/>
-<connect gate="G$1" pin="C1" pad="C1_0 C1_1 C1_2 C1_3 C1_4 C1_5"/>
-<connect gate="G$1" pin="C10" pad="C10_0 C10_1 C10_2 C10_3 C10_4 C10_5"/>
-<connect gate="G$1" pin="C11" pad="C11_0 C11_1 C11_2 C11_3 C11_4 C11_5"/>
-<connect gate="G$1" pin="C12" pad="C12_1 C12_2 C12_3 C12_4 C12_5"/>
-<connect gate="G$1" pin="C2" pad="C2_0 C2_1 C2_2 C2_3 C2_4 C2_5"/>
-<connect gate="G$1" pin="C3" pad="C3_0 C3_1 C3_2 C3_3 C3_4 C3_5"/>
-<connect gate="G$1" pin="C4" pad="C4_0 C4_1 C4_2 C4_3 C4_4 C4_5"/>
-<connect gate="G$1" pin="C5" pad="C5_1 C5_2 C5_3 C5_4"/>
-<connect gate="G$1" pin="C6" pad="C6_1 C6_2 C6_3 C6_4 C6_5"/>
-<connect gate="G$1" pin="C7" pad="C7_1 C7_2 C7_3 C7_4 C7_5"/>
-<connect gate="G$1" pin="C8" pad="C8_0 C8_1 C8_2 C8_3 C8_4"/>
-<connect gate="G$1" pin="C9" pad="C9_0 C9_1 C9_2 C9_3 C9_4 C9_5"/>
+<connect gate="G$1" pin="C0" pad="C0_1 C0_1V C0_2 C0_2V C0_3 C0_3V C0_4 C0_4V C0_5 C0_5V"/>
+<connect gate="G$1" pin="C1" pad="C1_0 C1_0V C1_1 C1_1V C1_2 C1_2V C1_3 C1_3V C1_4 C1_4V C1_5 C1_5V"/>
+<connect gate="G$1" pin="C10" pad="C10_0 C10_0V C10_1 C10_1V C10_2 C10_2V C10_3 C10_3V C10_4 C10_4V C10_5 C10_5V"/>
+<connect gate="G$1" pin="C11" pad="C11_0 C11_0V C11_1 C11_1V C11_2 C11_2V C11_3 C11_3V C11_4 C11_4V C11_5 C11_5V"/>
+<connect gate="G$1" pin="C12" pad="C12_1 C12_1V C12_2 C12_2V C12_3 C12_3V C12_4 C12_4V C12_5 C12_5V"/>
+<connect gate="G$1" pin="C2" pad="C2_0 C2_0V C2_1 C2_1V C2_2 C2_2V C2_3 C2_3V C2_4 C2_4V C2_5 C2_5V"/>
+<connect gate="G$1" pin="C3" pad="C3_0 C3_0V C3_1 C3_1V C3_2 C3_2V C3_3 C3_3V C3_4 C3_4V C3_5 C3_5V"/>
+<connect gate="G$1" pin="C4" pad="C4_0 C4_0V C4_1 C4_1V C4_2 C4_2V C4_3 C4_3V C4_4 C4_4V C4_5 C4_5V" route="any"/>
+<connect gate="G$1" pin="C5" pad="C5_1 C5_1V C5_2 C5_2V C5_3 C5_3V C5_4 C5_4V" route="any"/>
+<connect gate="G$1" pin="C6" pad="C6_1 C6_1V C6_2 C6_2V C6_3 C6_3V C6_4 C6_4V C6_5 C6_5V"/>
+<connect gate="G$1" pin="C7" pad="C7_1 C7_1V C7_2 C7_2V C7_3 C7_3V C7_4 C7_4V C7_5 C7_5V"/>
+<connect gate="G$1" pin="C8" pad="C8_0 C8_0V C8_1 C8_1V C8_2 C8_2V C8_3 C8_3V C8_4 C8_4V"/>
+<connect gate="G$1" pin="C9" pad="C9_0 C9_0V C9_1 C9_1V C9_2 C9_2V C9_3 C9_3V C9_4 C9_4V C9_5 C9_5V"/>
 <connect gate="G$1" pin="R0" pad="R0_1 R0_2 R0_3 R0_4 R0_8 R0_9 R0_10 R0_11"/>
 <connect gate="G$1" pin="R1" pad="R1_0 R1_1 R1_2 R1_3 R1_4 R1_5 R1_6 R1_7 R1_8 R1_9 R1_10 R1_11 R1_12"/>
 <connect gate="G$1" pin="R2" pad="R2_0 R2_1 R2_2 R2_3 R2_4 R2_5 R2_6 R2_7 R2_8 R2_9 R2_10 R2_11 R2_12"/>
